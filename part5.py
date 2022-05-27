@@ -25,12 +25,11 @@ not a month
 #start writing your code below
 
 var1 = str(input("Enter a month "))
-if var1 == int(input):
-  var1 = str(input("Nice try, enter a month "))
 if var1 == "February":
   print("It can have 28 or 29 days")
 elif var1 == "April" or "June" or "September" or "November":
-elif var1 == "January" or "March" or "May" or "July" or "August" and var1 == "October" or "December":
+    print("There are 30 days")
+elif var1 == "January" or "March" or "May" or "July":  
   print("There are 31 days")
-else:
-  var1 = str(input("Nice try, enter a month "))
+elif var1 == "August" or "October" or "December":
+  print("There are 31 days")
